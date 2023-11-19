@@ -64,7 +64,7 @@ def main():
                     
                     if btn:
                         print("processing....")
-                        st.text("processing....")
+                        #st.text("processing....")
                         user_question = format_questions(user_question)
                         answer = ask_question(user_question, question_context)
                         print(f"\nANSWER\n{answer}\n")
